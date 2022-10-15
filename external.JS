@@ -10,7 +10,6 @@ const computerPlay= () => {
     return 'Scissor';
     }
       }
-    console.log(computerPlay(1))
 
     function playRound(playerSelection, computerSelection) {
         if (playerSelection === "rock") {
@@ -41,7 +40,7 @@ const computerPlay= () => {
     }
 const playerSelection ="rock";
 const computerSelection = computerPlay();
-console.log(playRound(playerSelection,computerPlay))
+
 
 function game() {
     for (let i = 0; i < 5; i++) {
