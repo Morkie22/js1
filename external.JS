@@ -1,3 +1,5 @@
+
+//computer play//
 const computerPlay= () => {
     const randomNumber = (Math.floor(Math.random() * 3))
     if (randomNumber === 0){
@@ -12,6 +14,8 @@ const computerPlay= () => {
       }
 console.log(computerPlay(0))
 
+//end computer play//
+//start computer playround //
     function playRound(playerSelection, computerSelection) {
         if (playerSelection === "rock") {
             if (computerSelection === "rock") {
@@ -42,10 +46,12 @@ console.log(computerPlay(0))
 const playerSelection ="rock";
 const computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection))
-
+// end of computer playround //
+// start game//
 function game() {
     for (let i = 0; i < 5; i++) {
       console.log(playerSelection, computerSelection);
     }
   }
   game();
+// end of number of games//
